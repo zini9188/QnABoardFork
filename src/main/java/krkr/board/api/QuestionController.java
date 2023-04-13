@@ -1,8 +1,6 @@
 package krkr.board.api;
 
 import krkr.board.config.UserDetailsImpl;
-import krkr.board.constant.Status;
-import krkr.board.dto.QuestionPageResponse;
 import krkr.board.dto.QuestionRequest;
 import krkr.board.dto.QuestionResponse;
 import krkr.board.service.QuestionService;
@@ -17,7 +15,6 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.util.List;
-import java.util.stream.Collectors;
 
 @RestController
 @RequiredArgsConstructor

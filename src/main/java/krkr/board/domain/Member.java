@@ -27,7 +27,6 @@ public class Member{
     private String password;
 
     @ElementCollection(fetch = FetchType.EAGER)
-    //@Builder.Default
     private List<String> roles = new ArrayList<>();
 
     @Builder
