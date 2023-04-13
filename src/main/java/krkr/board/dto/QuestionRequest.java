@@ -31,7 +31,6 @@ public class QuestionRequest {
                 .title(title)
                 .content(content)
                 .member(member)
-                .like(0)
                 .status(Status.QUESTION_REGISTRATION)
                 .scope(scope)
                 .build();
